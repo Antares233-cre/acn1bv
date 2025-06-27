@@ -1,0 +1,310 @@
+header{
+    background-color: black;
+    
+}
+h1{
+    color: #00FFFF;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style : normal;
+    margin-right: 3rem;
+    margin-top: 4rem;
+    
+}
+.jin{ 
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.jin ul{
+    align-items: center;
+    display: flex;
+    margin-top: auto;
+    text-decoration: none;
+    
+}
+.jin a{
+      color: #b2eeee;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style : normal;
+    margin-right: 2rem;
+    margin-top: 4rem;
+    font-size: 27px;
+    text-decoration: none;
+    padding:0 20px;
+    
+    border: 0;
+    background-image: linear-gradient(
+        
+        150deg,
+        #3c2446,
+        #283077,
+        #304c61
+    );
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+.jin a:hover{
+    background: rgb(223, 218, 223);
+    color: #111;
+}
+.jin a:active {
+    transform: scale(0,3)
+}
+.andromeda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+
+.beru {
+    text-align: center;
+    color: aliceblue;
+    justify-content: center ;
+    font-size: 25px;
+    align-items: center;
+    
+    
+}
+
+
+ h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-block: 12px;
+    color: aliceblue;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style : normal;
+}
+.lio{ 
+    display: flex;
+    
+    
+}
+h3{ 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style : normal;
+}
+.beru1{
+    
+    margin-right: 30px;
+    margin-left: 30px;
+    position: relative;
+  width: 410px;
+  height: 700px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.beru1 img {
+  
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease;
+  display: block;
+}
+.tusk  {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 150%;
+  background-color: rgba(85, 63, 88, 0.466);
+  color: #e0e0e0;
+  font-family: "Cinzel", serif;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  text-align: center;
+  padding: 2rem;
+}
+.beru1 :hover img {
+  opacity: 0;
+}
+
+.beru1:hover .tusk {
+  opacity: 1;
+}
+.fuego img{
+    filter: blur(4px);
+}
+.trei{
+    
+    
+    position: relative;
+}
+.trei p{
+    margin-left: 600px;
+    text-align: left;
+    background-color: #11111198;
+    color: rgb(207, 72, 72);
+    position: absolute;
+    top:80px ;
+    font-size: 28px;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.trei iframe{
+    position: absolute;
+    top: 80px;
+    border-radius: 2rem;
+}
+.trei h3{ 
+
+    color: #9e4242;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style : normal;
+    position: absolute;
+    top:20px ;
+    
+
+}
+.geo h3{
+    color: #e6dede;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style : normal;
+    position: absolute;
+    left: 1700px;
+    top: 600px;
+}
+    .geo iframe{
+        position: absolute;
+    top: 680px;
+    left:1300px ;
+    border:4px solid #9e4242;
+    border-radius: 2rem;
+
+    }
+    .geo p{
+        text-align: left;
+    background-color: #11111198;
+    color: rgb(223, 209, 209);
+    position: absolute;
+    top: 680px;
+    margin-right: 600px;
+     font-size: 28px;
+    padding: 2rem; 
+    border-radius: 2rem;
+    }
+    .hun   {
+        margin-left: 550px;
+        
+    }
+    
+    .dendro {
+        margin-top: 5%;
+        margin-left: 38%;
+         background-color: #111;
+         border: 1px solid #2c2c2c;
+         border-radius: 12px;
+        padding: 30px 40px;
+       width: 400px;
+       box-shadow: 0 0 15px rgba(0, 255, 255, 0.15), 0 0 30px rgba(50, 0, 255, 0.3);
+}
+
+.dendro h2 {
+  text-align: center;
+  color: #00ffff;
+  margin-bottom: 20px;
+}
+
+.wyse {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #ccc;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #00ffff;
+  box-shadow: 0 0 5px #00ffff88;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(90deg, #0055ff, #00ffff);
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background: linear-gradient(90deg, #00ffff, #0055ff);
+}
+.dendro{
+    width: 300px;
+    background: url(imagenes/este-es-el-cosplay-mas-genial-de-sung-jinwoo-de-solo-leveling-que-veras-hoy.webp);
+}
+
+.paimon{
+  display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.paimon1{
+    
+    color: #313da7;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+  
+body{
+    background-color: rgb(28, 11, 44);
+    margin: 0;
+    padding: 0;
+}
