@@ -25,7 +25,7 @@ h1{
     text-decoration: none;
     
 }
-.jin ul a{
+.jin a{
       color: #b2eeee;
     font-family: "Cinzel", serif;
     font-optical-sizing: auto;
@@ -51,7 +51,6 @@ h1{
     transition: .5s;
     
 }
-
 .jin a:hover{
     background: rgb(223, 218, 223);
     color: #111;
