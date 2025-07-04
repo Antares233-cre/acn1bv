@@ -18,14 +18,14 @@ h1{
     
 }
 
-.jin ul{
+.jin ul {
     align-items: center;
     display: flex;
     margin-top: auto;
     text-decoration: none;
     
 }
-.jin a{
+.jin ul a{
       color: #b2eeee;
     font-family: "Cinzel", serif;
     font-optical-sizing: auto;
@@ -51,6 +51,7 @@ h1{
     transition: .5s;
     
 }
+
 .jin a:hover{
     background: rgb(223, 218, 223);
     color: #111;
@@ -302,7 +303,63 @@ input[type="submit"]:hover {
     transform: translate(-50%, -50%);
     font-size: 40px;
 }
-  
+.paimon a{
+    color: #b2eeee;
+    font-family: "Cinzel", serif;
+    font-style : normal;
+    font-size: 27px;
+    text-decoration: none;
+    border: 0;
+    background-image: linear-gradient(
+        
+        150deg,
+        #3c2446,
+        #283077,
+        #304c61
+    );
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+     top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     position: absolute;
+}
+.qiqi{
+  color: #313da7;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+.qiqi a{
+   color: #b2eeee;
+    font-family: "Cinzel", serif;
+    font-style : normal;
+    font-size: 27px;
+    text-decoration: none;
+    border: 0;
+    background-image: linear-gradient(
+        
+        150deg,
+        #3c2446,
+        #283077,
+        #304c61
+    );
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+     top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     position: absolute;
+
+}
 body{
     background-color: rgb(28, 11, 44);
     margin: 0;
