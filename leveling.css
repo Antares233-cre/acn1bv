@@ -303,6 +303,7 @@ input[type="submit"]:hover {
     font-size: 40px;
 }
 .paimon1 a{
+    display: flex;
     color: #b2eeee;
     font-family: "Cinzel", serif;
     font-style : normal;
