@@ -321,10 +321,10 @@ input[type="submit"]:hover {
     text-align: center;
     cursor: pointer;
     transition: .5s;
-     top: 60%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-     position: absolute;
+    position: absolute;
 }
 .qiqi{
   color: #313da7;
