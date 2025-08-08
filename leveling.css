@@ -289,7 +289,7 @@ input[type="submit"]:hover {
 }
 
 .paimon{
-  display: flex;
+  display: inline-block;
     position: relative;
     text-align: center;
 }
@@ -324,7 +324,7 @@ input[type="submit"]:hover {
      top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-     position: relative;
+     position: flex;
 }
 .qiqi{
   color: #313da7;
