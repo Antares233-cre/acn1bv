@@ -363,6 +363,75 @@ body{
     background-color: rgb(28, 11, 44);
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+}
+img {
     max-width: 100%;
     height: auto;
+}
+@media screen and (max-width: 1024px) {
+    .jin {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .jin ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .jin a {
+        font-size: 22px;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .andromeda {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .beru {
+        font-size: 20px;
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+        margin-top: 2rem;
+    }
+
+    .jin img {
+        width: 200px;
+    }
+
+    .jin a {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .beru {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    .andromeda {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    
+    .dendro {
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    
+    iframe {
+        width: 100%;
+        height: auto;
+    }
 }
