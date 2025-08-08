@@ -364,6 +364,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: "Cinzel", serif;
 }
 img {
     max-width: 100%;
@@ -469,7 +470,7 @@ img {
         font-size: 20px;
         padding: 15px;
     }
-}
+
 
 
 
