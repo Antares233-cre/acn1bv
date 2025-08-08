@@ -303,7 +303,7 @@ input[type="submit"]:hover {
     font-size: 40px;
 }
 .paimon1 a{
-    display: fixed;
+    display: flex;
     color: #b2eeee;
     font-family: "Cinzel", serif;
     font-style : normal;
@@ -325,7 +325,7 @@ input[type="submit"]:hover {
      top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-     position: absolute;
+     position: flex;
 }
 .qiqi{
   color: #313da7;
