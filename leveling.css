@@ -303,7 +303,7 @@ input[type="submit"]:hover {
     font-size: 40px;
 }
 .paimon1 a{
-    display: flex;
+    display: fixed;
     color: #b2eeee;
     font-family: "Cinzel", serif;
     font-style : normal;
@@ -322,7 +322,8 @@ input[type="submit"]:hover {
     text-align: center;
     cursor: pointer;
     transition: .5s;
-
+     top: 60%;
+    left: 50%;
     transform: translate(-50%, -50%);
      position: absolute;
 }
