@@ -369,6 +369,33 @@ img {
     max-width: 100%;
     height: auto;
 }
+.paimon img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.paimon {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.paimon1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+
+
 @media screen and (max-width: 1024px) {
   .jin {
     flex-direction: column;
