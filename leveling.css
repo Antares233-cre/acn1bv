@@ -302,7 +302,7 @@ input[type="submit"]:hover {
     transform: translate(-50%, -50%);
     font-size: 40px;
 }
-.paimon a{
+.paimon1 a{
     color: #b2eeee;
     font-family: "Cinzel", serif;
     font-style : normal;
@@ -365,28 +365,4 @@ body{
     padding: 0;
     max-width: 100%;
     height: auto;
-}
-.paimon a{
-    color: #b2eeee;
-    font-family: "Cinzel", serif;
-    font-style : normal;
-    font-size: 27px;
-    text-decoration: none;
-    border: 0;
-    background-image: linear-gradient(
-        
-        150deg,
-        #3c2446,
-        #283077,
-        #304c61
-    );
-    border-radius: 8px;
-    position: relative;
-    text-align: center;
-    cursor: pointer;
-    transition: .5s;
-     top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-     position: absolute;
 }
