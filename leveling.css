@@ -302,7 +302,7 @@ input[type="submit"]:hover {
     transform: translate(-50%, -50%);
     font-size: 40px;
 }
-.paimon a{
+.paimon1 a{
     color: #b2eeee;
     font-family: "Cinzel", serif;
     font-style : normal;
@@ -363,9 +363,6 @@ body{
     background-color: rgb(28, 11, 44);
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-}
-img {
     max-width: 100%;
     height: auto;
 }
